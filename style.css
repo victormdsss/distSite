@@ -6740,7 +6740,11 @@ h1, .title {
   .footer .copy > div {
     padding: 0; }
   .footer .cards, .footer .dev {
-    text-align: left; } }
+    text-align: left; }
+  .p-pos-hero {
+    transition: 0.2s; }
+  .p-pos-hero:hover {
+    transform: scale(1.05); } }
 
 .cursor-pointer {
   cursor: pointer; }
